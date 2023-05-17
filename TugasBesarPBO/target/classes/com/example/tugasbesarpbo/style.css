@@ -1,0 +1,35 @@
+.loginBtn{
+    -fx-background-color : red;
+    -fx-text-color : white;
+    -fx-border-radius : 50px;
+}
+
+.loginBtn:hover{
+    -fx-background-color : blue;
+}
+
+.leftSide{
+    -fx-background-image : url('image/satu.jpg');
+    -fx-background-size : 356px 408px;
+}
+
+.rightSide{
+    -fx-background-image : url('image/tult.jpg');
+    -fx-background-size : 356px 408px;
+    -fx-background-position : -70px;
+}
+
+.linier-background{
+   -fx-background-color : linear-gradient(to left, #002FAB,#000D4B);
+}
+
+.btn-hover:hover{
+    -fx-background-color : #E8444E;
+}
+
+
+.table-view-header{
+
+    -fx-background-radius : 20px;
+    -fx-background-insets : 0 0 10 0;
+}
